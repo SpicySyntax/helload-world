@@ -6,6 +6,7 @@ export let options = {
     duration: '30s'
 };
 export default function() {
+    // Note: we tried various web services that are not included in the project TODO: add them to this project
     let response = http.get("http://localhost:8080/hello/") // quarkus no graalvm
     // data_received..................: 9.9 MB 330 kB/s
     // data_sent......................: 10 MB  342 kB/s
